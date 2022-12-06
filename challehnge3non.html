@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 42%;
+  padding: 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;
+    border-radius: 25px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 70%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 25px;
+  }
+}
+.column
+{
+    display:inline-block;
+    margin-left:100px;
+    margin-bottom:75px;
+    border-radius: 76px;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding:100px;
+  text-align: center;
+  background-color: darkcyan;
+  }
+  a:link {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+</style>
+</head>
+<body align ="center">
+<h1> NonAc hostel without attached washroom</h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h1><a href="Vaidhehi.html">Vaidhehi</a></h1>
+    </div>
+  </div>
+    <div class ="column">
+    <div class="card">
+    <h1><a href="Vaishnavi.html">Vaishnavi</a></h1>
+    </div>
+  </div>
+</div>
+</br>
+ <div class="row">
+  <div class="column">
+    <div class="card">
+     <h1><a href="Saradha.html">Saradha</a></h1>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <h1><a href="Padmavathi.html">Padmavathi</a></h1>
+    </div>
+  </div>
+</div>
+</br>
+<h1>Hostels with attached washrooms</h1>
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <h1><a href="murdhula.html">Murdhula</a></h1>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <h1><a href="Nirmala.html">Nirmala</a></h1>
+      </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <h1><a href="Yamini.html">Yamini</a></h1>
+      </div>
+    </div>
+   <div class="rounded-7">
+    <div class="column">
+      <div class="card">
+        <h1><a href="neelima.html">Neelima</a></h1>
+      </div>
+    </div>
+   </div>
+</div>
+</body>
+</html>
